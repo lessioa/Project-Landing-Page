@@ -1,0 +1,35 @@
+.header {
+    background-color: #60BFF5;
+    width: auto;
+    height: 200px;
+}
+
+.sectionOne {
+    background-color: #2E63A4;
+    width: auto;
+    height: 200px;
+}
+
+.sectionTwo {
+    background-color: #AF6528;
+    width: auto;
+    height: 200px;
+}
+
+.sectionThree {
+    background-color: #FFCE00;
+    width: auto;
+    height: 200px;
+}
+
+.sectionFour {
+    background-color: #D70000;
+    width: auto;
+    height: 200px;
+}
+
+.footer {
+    background-color: #000000;
+    width: auto;
+    height: 200px;
+}
