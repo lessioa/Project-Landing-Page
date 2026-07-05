@@ -1,35 +1,40 @@
 .header {
-    background-color: #60BFF5;
+    background-color: white;
     width: auto;
     height: 200px;
 }
 
+.header img {
+    width: 300px;
+    height: 200px;
+}
+
 .sectionOne {
-    background-color: #2E63A4;
+    background-color: white;
     width: auto;
     height: 200px;
 }
 
 .sectionTwo {
-    background-color: #AF6528;
+    background-color: #60BFF5;
     width: auto;
     height: 200px;
 }
 
 .sectionThree {
-    background-color: #FFCE00;
+    background-color: #2E63A4;
     width: auto;
     height: 200px;
 }
 
 .sectionFour {
-    background-color: #D70000;
+    background-color: #AF6528;
     width: auto;
     height: 200px;
 }
 
 .footer {
-    background-color: #000000;
+    background-color: #FFCE00;
     width: auto;
     height: 200px;
 }
