@@ -32,6 +32,39 @@ a {
     background-color: white;
     width: auto;
     height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.test {
+    width: 100%;
+    height: 200px;
+    margin: 0 100px 0 100px;
+    display: flex;
+}
+
+.testLeft {
+    height: 200px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.testLeftTop {
+    flex-grow: 3;
+}
+
+.testLeftMiddle {
+    flex-grow: 2;
+}
+
+.testLeftLower {
+    flex-grow: 1;
+}
+
+.testRight {
+    height: 200px;
+    width: 50%;
 }
 
 .sectionTwo {
