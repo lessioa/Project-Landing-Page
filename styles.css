@@ -1,3 +1,8 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
 .header {
     background-color: white;
     width: auto;
@@ -30,7 +35,7 @@ a {
 
 .sectionOne {
     background-color: white;
-    margin: 50px;
+    margin: 50px 0px 50px 0px;
     width: auto;
     height: 200px;
     display: flex;
@@ -84,24 +89,30 @@ button {
 .testRight {
     height: 200px;
     width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logoOP2 {
+    height: auto;
 }
 
 .sectionTwo {
     background-color: #60BFF5;
     width: auto;
-    height: 200px;
+    height: 400px;
 }
 
 .sectionThree {
     background-color: #2E63A4;
     width: auto;
-    height: 200px;
+    height: 400px;
 }
 
 .sectionFour {
     background-color: #AF6528;
     width: auto;
-    height: 200px;
+    height: 400px;
 }
 
 .footer {
