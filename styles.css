@@ -3,6 +3,8 @@ body {
     padding: 0px;
 }
 
+/*---------------- HEADER --------------*/
+
 .header {
     background-color: white;
     width: auto;
@@ -32,6 +34,7 @@ a {
     color: #2E63A4;
 }
 
+/*--------------------- SECTION ONE ------------------------*/
 
 .sectionOne {
     background-color: white;
@@ -97,11 +100,15 @@ button {
     height: auto;
 }
 
+/*--------------------- SECTION TWO --------------------------*/
+
 .sectionTwo {
     background-color: #60BFF5;
     width: auto;
     height: 400px;
 }
+
+/*--------------------- SECTION THREE ------------------------*/
 
 .sectionThree {
     background-color: #2E63A4;
@@ -109,12 +116,15 @@ button {
     height: 400px;
 }
 
+/*--------------------- SECTION FOUR -------------------------*/
+
 .sectionFour {
     background-color: #AF6528;
     width: auto;
     height: 400px;
 }
 
+/*--------------------- FOOTER -------------------------------*/
 .footer {
     background-color: #FFCE00;
     width: auto;
