@@ -68,7 +68,7 @@ a {
 }
 
 p.Strawhats {
-    font-size: 50px;
+    font-size: 56px;
     font-family: fantasy;
     color: #2E63A4;
     margin: 0px;
@@ -76,7 +76,7 @@ p.Strawhats {
 }
 
 p.StrawhatsMiddle {
-    font-size: 20px;
+    font-size: 22px;
     font-family: fantasy;
     color: #2E63A4;
     margin: 0px;
@@ -87,6 +87,8 @@ button {
     background-color: #2E63A4;
     color: white;
     border-radius: 4px;
+    width: 100px;
+    height: 35px;
 }
 
 .testRight {
@@ -105,7 +107,39 @@ button {
 .sectionTwo {
     background-color: #60BFF5;
     width: auto;
-    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.someOfCrew {
+    text-align: center;
+    font-size: 60px;
+    font-family: fantasy;
+    color: #2E63A4;
+}
+
+.crewMembers {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgMember {
+    width: 200px;
+    height: 200px;
+}
+
+.member {
+    align-items: center;
+}
+
+div.member {
+    text-align: center;
+    font-size: 30px;
+    font-family: fantasy;
+    color: #2E63A4;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 /*--------------------- SECTION THREE ------------------------*/
