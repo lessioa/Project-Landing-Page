@@ -172,14 +172,6 @@ div.quoteBottom {
     font-size: 25px;
 }
 
-/*--------------------- SECTION FOUR -------------------------*/
-
-.sectionFour {
-    background-color: #AF6528;
-    width: auto;
-    height: 400px;
-}
-
 .quote {
     display: flex;
     flex-direction: column;
@@ -194,6 +186,16 @@ div.quoteBottom {
     width: 100%;
     flex: 1;
 }
+
+/*--------------------- SECTION FOUR -------------------------*/
+
+.sectionFour {
+    background-color: #AF6528;
+    width: auto;
+    height: 400px;
+}
+
+
 
 /*--------------------- FOOTER -------------------------------*/
 .footer {
