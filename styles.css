@@ -148,6 +148,28 @@ div.member {
     background-color: #2E63A4;
     width: auto;
     height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    width: 900px;
+    height: 300px;
+}
+
+div.quoteTop {
+    color: #60BFF5;
+    font-size: 35px;
+}
+
+.quoteBottom {
+    display: flex;
+    justify-content: flex-end;
+}
+
+div.quoteBottom {
+    font-size: 25px;
 }
 
 /*--------------------- SECTION FOUR -------------------------*/
@@ -156,6 +178,21 @@ div.member {
     background-color: #AF6528;
     width: auto;
     height: 400px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+.quoteTop {
+    width: 100%;
+    flex: 4;
+
+}
+
+.quoteBottom {
+    width: 100%;
+    flex: 1;
 }
 
 /*--------------------- FOOTER -------------------------------*/
