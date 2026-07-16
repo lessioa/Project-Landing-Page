@@ -249,8 +249,16 @@ div.actionBottom {
 
 
 /*--------------------- FOOTER -------------------------------*/
+
 .footer {
     background-color: #FFCE00;
     width: auto;
-    height: 200px;
+    height: 100px;
+    text-align: center;
+}
+
+.footer p {
+    margin-top: 0px;
+    padding-top: 40px;
+    font-weight: bold;
 }
