@@ -193,6 +193,57 @@ div.quoteBottom {
     background-color: #AF6528;
     width: auto;
     height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action {
+    background-color: beige;
+    width: 1000px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    
+}
+
+.actionLeft {
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+}
+
+
+div.actionTop {
+    font-size: 20px;
+    padding-left: 100px;
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.actionTop p {
+    margin-bottom: 0px;
+    padding-top: 25px;
+}
+
+.actionBottom p {
+    margin-top: 0px;
+}
+
+div.actionBottom {
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+.actionRight {
+    flex: 1;
+    padding-top: 60px;
+}
+
+.actionRight button {
+    background-color: beige;
+    color: black;
 }
 
 
